@@ -4,7 +4,8 @@ Vibrate jquery plugin
 Make the text in a div vibrate on mouseover. Written in coffeescript, a
 generated .js is included in the repo.
 
-See index.html for usage.
+See index.html for usage. See it in action at
+<http://bhuga.github.com/jquery-vibrate-coffee/>
 
 #### Author
 By Ben Lavender <blavender@gmail.com>
