@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>jQuery Vibrate Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+    <script type='text/javascript' src="vibrate.js"/></script>
+  </head>
+  <body>
+    <h1>jQuery Vibrate Example</h1>
+    <h3>Always add a little bit of padding, or you may shuffle other elements in the page around a little.</h3>
+    <div style="margin-left:15px;padding:4px;background-color:green;border: thin solid black;width=0%" class="vibrate">
+      <strong style="font-size:40px;">Mouse over me to vibrate! Note that what vibrates is what's *in* a div, not the div.</strong>
+    </div>
+    <br/>
+    <br/>
+    <div style="margin-left:15px;padding:4px;background-color:green;border: thin solid black;width=0%" class="vibrate-fast">
+      <strong style="font-size:40px;">Adjust the speed to vibrate more quickly.</strong>
+    </div>
+    <script type='text/javascript'>
+      $(document).ready(function() {
+        $('.vibrate').vibrate({'speed': 200});
+        $('.vibrate-fast').vibrate({'speed': 50});
+      });
+    </script>
+  </body>
+</html>
